@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890",
+      "password": "password123",
+      "avatar": "JD"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Johnson",
+      "specialty": "cardiology",
+      "qualification": "MD, Cardiology",
+      "experience": 12,
+      "hospital": "City General Hospital",
+      "email": "sarah.johnson@hospital.com",
+      "phone": "+1234567890",
+      "consultationFee": 150,
+      "rating": 4.8,
+      "totalReviews": 124,
+      "availability": [
+        {
+          "day": "monday",
+          "slots": ["09:00", "10:00", "11:00", "14:00", "15:00"]
+        },
+        {
+          "day": "wednesday",
+          "slots": ["09:00", "10:00", "11:00", "14:00", "15:00"]
+        }
+      ],
+      "bio": "Experienced cardiologist with over 12 years of practice.",
+      "languages": ["English", "Spanish"],
+      "isAvailable": true
+    },
+    {
+      "id": 2,
+      "name": "Dr. Michael Chen",
+      "specialty": "neurology",
+      "qualification": "MD, Neurology",
+      "experience": 15,
+      "hospital": "Neuro Care Center",
+      "email": "michael.chen@hospital.com",
+      "phone": "+1234567891",
+      "consultationFee": 180,
+      "rating": 4.9,
+      "totalReviews": 98,
+      "availability": [
+        {
+          "day": "tuesday",
+          "slots": ["10:00", "11:00", "14:00", "15:00", "16:00"]
+        },
+        {
+          "day": "thursday",
+          "slots": ["10:00", "11:00", "14:00", "15:00", "16:00"]
+        }
+      ],
+      "bio": "Specialized in neurological disorders and treatment.",
+      "languages": ["English", "Mandarin"],
+      "isAvailable": true
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Rodriguez",
+      "specialty": "pediatrics",
+      "qualification": "MD, Pediatrics",
+      "experience": 8,
+      "hospital": "Children Medical Center",
+      "email": "emily.rodriguez@hospital.com",
+      "phone": "+1234567892",
+      "consultationFee": 120,
+      "rating": 4.7,
+      "totalReviews": 156,
+      "availability": [
+        {
+          "day": "monday",
+          "slots": ["08:00", "09:00", "10:00", "13:00", "14:00"]
+        },
+        {
+          "day": "tuesday",
+          "slots": ["08:00", "09:00", "10:00", "13:00", "14:00"]
+        }
+      ],
+      "bio": "Dedicated pediatrician with focus on child healthcare.",
+      "languages": ["English", "Spanish"],
+      "isAvailable": true
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "doctorId": 1,
+      "patientName": "John Doe",
+      "doctorName": "Dr. Sarah Johnson",
+      "date": "2024-01-15",
+      "time": "10:00 AM",
+      "type": "video",
+      "status": "scheduled",
+      "symptoms": ["Headache", "Dizziness"],
+      "notes": "Regular checkup"
+    }
+  ],
+  "medicines": [
+    {
+      "id": 1,
+      "name": "Amoxicillin",
+      "type": "Antibiotic",
+      "description": "For bacterial infections",
+      "price": 15.99,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Lipitor",
+      "type": "Cholesterol",
+      "description": "Cholesterol medication",
+      "price": 24.99,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Ventolin",
+      "type": "Asthma",
+      "description": "Asthma inhaler",
+      "price": 19.99,
+      "inStock": true
+    }
+  ],
+  "emergencies": [],
+  "records": []
+}
