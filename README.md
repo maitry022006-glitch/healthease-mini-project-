@@ -30,8 +30,7 @@ Backend:
    node server.js
 
 🔗 Project Links
-Frontend: https://your-frontend-link  
-Backend: https://github.com/maitry022006-glitch/healthease-backend
+Frontend + Backend : https://maitry022006-glitch.github.io/healthease-mini-project-/
 
  👩‍💻 Author
 Maitry Patel
