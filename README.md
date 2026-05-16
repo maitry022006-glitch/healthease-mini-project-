@@ -19,8 +19,7 @@ Frontend:
 - JavaScript
 
 Backend:
-- Node.js (if used)
-- Express.js (if used)
+- Node.js
 
 💡 How to Run
 1. Clone the repository
